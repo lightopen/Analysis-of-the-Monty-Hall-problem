@@ -10,9 +10,9 @@
 
 代码模拟游戏选择，给出100000次模拟后的期望概率。运行结果如下：
 total 100000 times
-	switch 49937 times
-		win 33372 times, p = 0.333720
-	stay 50063 times
-		win 16621 times, p = 0.166210
+	switch 50057 times
+		win 33517 times, p = 0.669577
+	stay 49943 times
+		win 16541 times, p = 0.331198
 
 模拟比较稳定，所以问题答案应该是：换另一扇门会使得参赛者赢得汽车的机率翻倍。
