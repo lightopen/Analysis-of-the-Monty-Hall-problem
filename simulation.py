@@ -66,7 +66,7 @@ def main():
         total, switch, switch_win, stay, stay_win = calculate_once(total, switch, switch_win, stay, stay_win)
 
 
-    result = "total %d times\n\tswitch %d times\n\t\twin %d times, p = %f\n\tstay %d times\n\t\twin %d times, p = %f" % (total, switch, switch_win, switch_win / total, stay, stay_win, stay_win / total) 
+    result = "total %d times\n\tswitch %d times\n\t\twin %d times, p = %f\n\tstay %d times\n\t\twin %d times, p = %f" % (total, switch, switch_win, switch_win / switch, stay, stay_win, stay_win / stay) 
     print(result)
 
 if __name__ == "__main__":
